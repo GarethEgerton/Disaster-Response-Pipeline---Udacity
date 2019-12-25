@@ -1,0 +1,61 @@
+{% extends "master.html" %}
+
+{% block content %}
+    <div class="page-header">
+        <h1 class="text-center">Summary</h1><br>
+    </div>
+++
+    <div>
+        <h4>
+            <ul>
+                <li> Pre-labelled tweets and text messages have been provided by <a href="https://www.figure-eight.com/">Figure 8</a> who specialise in transforming text, image, audio, and video data into customized high-quality training data. This dataset was collated from communications across social media and messaging that took place following live disasters.</li><br>
+                <li> During and after a disaster there will typically be millions of tweets, text messages and other social media messages sent back and forth. Unfortunately it is difficult to distinguish between which of these are critical and require immediate attention from disaster response teams, and those that don't. Due to the sheer volume of messages, there is simply not enough time for human assesment of all communications when it is needed most. Typically only 1 in 1000 messages actually requries direct attention.</li><br>
+                <li> This project seeks to create a supervised machine learning model using natural language processing that is able to accurately categorise messages to be forwarded to relevant disaster response teams. It is a more sophisticated problem than that which a simple keyword search which would be able to solve, unable to capture necessary nuance in language. </li><br>
+                <li> The focus is initally on cleaning the raw data and constructing an ETL pipeline. A ML pipeline is constructed parameters fine tuned using gridsearch. This is the resulting Flask web app where predictions categorisations can be be made on new messages</li><br>
+            </ul>
+        </h4>
+    </div>
+
+    <div class="page-header">
+        <h1 class="text-center">Results</h1><br>
+    </div>
+
+
+    <div>
+        <h4>
+            <ul>
+                <li> Pre-labelled tweets and text messages have been provided by Figure 8. The data originally comes from communications across social media and messaging that have taken place following live disasters.</li><br>
+                <li> During and after a disaster there will typically be millions of tweets, txt messages and other social media messages sent back and forth. Unfortunately it is difficult to distinguish between which of these are critical and require immediate attention from response teams, and those which do not. Due to the sheer volume of messages, there is simply not enough time for human assesment of all communications at the time when it is needed most. Typically only 1 in 1000 messages actually requries direct attention.</li><br>
+                <li> This project seeks to create a supervised machine learning model using natural language processing that can accurately categorise messages to be forwarded to relevant disaster response teams.</li><br>
+                <li> This is more sophisticated than simply using a keyword search which is unable to accurately capture the nuance in the text. </li><br>
+                <li> The focus is initally on cleaning the data and constructing an ETL pipeline. A ML pipeline is then constructed, maximising accuarcy with gridsearch paramter tuning. Finally the model is deployed to a Flask web app where new messages can be predicted and categorised. </li><br>
+            </ul>
+        </h4>
+    </div>
+
+ <div class="page-header">
+        <h1 class="text-center">Analysis</h1><br>
+    </div>
+
+
+    <div>
+        <h4>
+            <ul>
+                <li> Pre-labelled tweets and text messages have been provided by Figure 8. The data originally comes from communications across social media and messaging that have taken place following live disasters.</li><br>
+                <li> During and after a disaster there will typically be millions of tweets, txt messages and other social media messages sent back and forth. Unfortunately it is difficult to distinguish between which of these are critical and require immediate attention from response teams, and those which do not. Due to the sheer volume of messages, there is simply not enough time for human assesment of all communications at the time when it is needed most. Typically only 1 in 1000 messages actually requries direct attention.</li><br>
+                <li> This project seeks to create a supervised machine learning model using natural language processing that can accurately categorise messages to be forwarded to relevant disaster response teams.</li><br>
+                <li> This is more sophisticated than simply using a keyword search which is unable to accurately capture the nuance in the text. </li><br>
+                <li> The focus is initally on cleaning the data and constructing an ETL pipeline. A ML pipeline is then constructed, maximising accuarcy with gridsearch paramter tuning. Finally the model is deployed to a Flask web app where new messages can be predicted and categorised. </li><br>
+            </ul>
+        </h4>
+    </div>
+
+
+
+
+{% endblock %}
+
+{% block info %}
+{% endblock %}
+
+   
